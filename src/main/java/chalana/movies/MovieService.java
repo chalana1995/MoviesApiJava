@@ -21,7 +21,7 @@ public class MovieService {
 
     public Optional<Movie> singleMovie(String imdbId)
     {
-        System.out.println("movie+++"+ movieRepository.findMovieByImdbId(imdbId));
+        System.out.println("movie+++"+ imdbId);
         return movieRepository.findMovieByImdbId(imdbId);
     }
 }
